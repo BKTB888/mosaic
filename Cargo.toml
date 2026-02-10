@@ -6,3 +6,6 @@ edition = "2024"
 [dependencies]
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
 subxt = "0.44.2"
+serde = { version = "1.0.228", features = ["derive"] }
+axum = "0.8.8"
+tower_governor = "0.8.0"
